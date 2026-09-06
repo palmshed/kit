@@ -30,7 +30,7 @@ https://github.com/bniladridas/homebrew-kit
 For Linux and macOS:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bniladridas/kit/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/coccinella-labs/go-kit/main/scripts/install.sh | sh
 ```
 
 ### Go

@@ -19,11 +19,11 @@ A lightweight developer CLI built with Go for working with Git hosting platforms
 ### Homebrew
 
 ```bash
-brew install bniladridas/kit/kit
+brew install coccinella-labs/kit/kit
 ```
 
 For Homebrew installation, see:
-https://github.com/bniladridas/homebrew-kit
+https://github.com/coccinella-labs/homebrew-kit
 
 ### Install Script
 
@@ -41,10 +41,10 @@ go install github.com/bniladridas/kit/cmd/kit@latest
 
 ### Manual Download
 
-Download the binary from the [latest release](https://github.com/bniladridas/kit/releases/latest) and move it to your PATH.
+Download the binary from the [latest release](https://github.com/palmshed/kit/releases/latest) and move it to your PATH.
 
 ```bash
-curl -fsSL https://github.com/bniladridas/kit/releases/download/v1.0.0/kit-linux-amd64 -o kit
+curl -fsSL https://github.com/palmshed/kit/releases/download/v1.0.0/kit-linux-amd64 -o kit
 chmod +x kit
 sudo mv kit /usr/local/bin
 ```
@@ -201,7 +201,7 @@ kit version 1.0.0
 ## Development
 
 ```bash
-git clone https://github.com/bniladridas/kit.git
+git clone https://github.com/palmshed/kit.git
 cd kit
 make build
 make test
